@@ -7,19 +7,49 @@
 </head>
 <body>
     <form action="">
-        <input type="radio" name="idioma" id="idiomaingles">Inglés <br>
-        <input type="radio" name="idioma" id="idiomaaleman">Alemán <br>
-        <input type="radio" name="idioma" id="idiomafrances">Francés <br>
-        <label for="">Nombre:</label>
-        <input type="text" name="Nombre">
-        <br>
-        <label for="">Apellidos:</label>
-        <input type="text" name="Apellidos">
-        <br>
-       <input type="checkbox" name="mujer" id=""> Mujer <br>
-       <input type="checkbox" name="hombre" id="">Hombre <br>
-       <label for="">Elija una fecha:</label>
-       <input type="date" name="fecha" id="" value="dd/mm/aaaa">
+
+    <fieldset>
+        
+        <legend>Rellenar</legend>
+
+
+         <!--Botones (Solo podemos elejir uno!)-->
+         <input type="radio" name="idioma" id="idiomaingles">Inglés <br>
+         <input type="radio" name="idioma" id="idiomaaleman">Alemán <br>
+         <input type="radio" name="idioma" id="idiomafrances">Francés <br>
+    
+         <!--Despegable-->
+         <select>
+             <option value="usb">USB</option>
+             <option value="paralelo">Paralelo</option>
+             <option value="ps2">PS2</option>
+         </select> <br>
+ 
+         <!--Caja de texto-->
+         <label for="">Nombre:</label>
+         <input type="text" name="Nombre">
+         <br>
+         <label for="">Apellidos:</label>
+         <input type="text" name="Apellidos">
+         <br>
+            
+    </fieldset>
+
+    <fieldset>
+    
+        <legend>Indique sus preferencias por favor</legend>
+
+        <!--Casillas de verificación-->
+        <input type="checkbox" name="mujer" id=""> Mujer <br>
+        <input type="checkbox" name="hombre" id="">Hombre <br>
+
+        <!--Seleccionar fecha, con calendarrio includio-->
+        <label for="">Elija una fecha:</label>
+        <input type="date" name="fecha" id="" value="dd/mm/aaaa">
+
+    </fieldset>
+
+
     </form>
 </body>
 </html>
