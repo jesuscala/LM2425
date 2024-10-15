@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE PAGO</title>
+</head>
+<body>
+<fieldset>
+ <legend> <b>Formulario de pago</b> <i>(Los campos obligatorios se han marcado con *)</i> </legend>
+
+    <fieldset>
+    <legend><b>Información de contacto</b></legend><br>
+
+    <fieldset>
+    <legend>Profesión</legend> 
+    <input type="radio" id="profesor/a" name="profesor/a" value="profesor/a">
+    <label for="profesor/a">profesor/a</label> <br>
+    <input type="radio" id="Estudiante" name="Estudiante" value="Estudiante">
+    <label for="Estudiante">Estudiante</label> <br>
+    <input type="radio" id="Otro" name="Otro" value="Otro">
+    <label for="Otro">Otro</label>
+    </fieldset>
+
+    <fieldset>
+    <legend>Tratamiento</legend> 
+    <input type="radio" id="sr/sra" name="sr/sra" value="sr/sra">
+    <label for="sr/sra">sr/sra</label> <br>
+    <input type="radio" id="Dr/Dra" name="Dr/Dra" value="Dr/Dra">
+    <label for="Dr/Dra">Dr/Dra</label> <br>
+    <input type="radio" id="Otro" name="Otro" value="Otro">
+    <label for="Otro">Otro</label>
+    </fieldset> <br>
+
+    <legend>Nombre: *</legend> 
+    <input type="text"> <br>
+
+    <legend>Correo: *</legend>
+    <input type="text"> <br>
+
+    <legend>Número de tlfo: *</legend>
+    <input type="text">
+
+    <legend>Contraseña: *</legend>
+    <input type="text">
+
+</fieldset>
+</fieldset>
+
+<fieldset>
+
+    <legend>Información de Pago</legend>
+
+    <p>Tipo de Tarjeta:</p>
+    <select name="banco" id="">
+    <option value="Visa">Visa</option>
+    <option value="MasterCard">MasterCard</option>
+    <option value="American Express">American Express</option>
+    </select> <br> <br>
+
+    <label for="">Número de Tarjeta:*</label>
+    <input type="text"> <br>
+
+    <p>Fecha de Caducidad:*<input type="date"></p>
+
+    <p>Cuenta de PayPal:* <input type="text" name="" id=""></p>
+
+    <p>Método de pago preferido:</p>
+    <select name="tarjeta" id="">
+    <option value="tarjeta de crédito">tarjeta de crédito</option>
+    <option value="PayPal">PayPal</option>
+    </select> <br>
+
+</fieldset>
+
+<br>
+<input type="submit" value="VALIDAR EL PAGO">
+
+</body>
+</html>
