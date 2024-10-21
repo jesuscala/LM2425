@@ -1,0 +1,10 @@
+div p {
+    color: fuchsia;
+    font-size: smaller;
+}
+
+h3 {
+    color: seagreen;
+    background-color: yellow;
+    font-style: italic;
+}

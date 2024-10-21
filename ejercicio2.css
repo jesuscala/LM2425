@@ -1,0 +1,17 @@
+h2 {
+    text-align: center;
+    color: navy;
+}
+
+p.Parrafo {
+    font-size: small;
+    color: darkorchid;
+    background-color: darkgrey;
+}
+
+#especial {
+    font-size: medium;
+    color: slategray;
+    background-color: springgreen;
+    text-align: right;
+}

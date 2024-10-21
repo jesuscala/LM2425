@@ -3,3 +3,8 @@ p.externo {
     background-color: yellow;
     font-size: 16px;
 }
+
+p.interno {
+    color: blue;
+    font-size: 18px;
+}
