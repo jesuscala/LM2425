@@ -1,0 +1,25 @@
+1. Preguntas para reflexionar:
+○ ¿Qué diferencias encontraste entre los tres métodos de aplicar CSS?
+    -que h1 tiene su propio estilo sin ser necesario meterlo en achivo css, y los parrafos son basicamente igual hablando de " estilos de css "
+
+○ ¿Qué ventajas ves en usar CSS externo frente a los otros métodos?
+    -es más fácil de mantener, reutilizar y hace que las páginas carguen más rápido.
+
+2. Preguntas para reflexionar:
+○ ¿Por qué usarías una clase en lugar de un id?
+    -class se usa cuando quiero aplicar el mismo estilo a varios elementos, mientras que un id es único
+○ Si cambias el estilo de h2 en el CSS, ¿cómo afecta eso a otros encabezados h2 en la página?
+    -cambiar el estilo de h2 afectará a todos los encabezados h2 en la página
+
+3. Preguntas para reflexionar:
+○ ¿Qué diferencias hay entre alinear texto usando CSS y hacerlo con HTML?
+    -en html al alinear se ve mas desorganizado, mientras que el css es mas organizado
+○ ¿Cómo cambiarías los márgenes o el padding para mejorar el diseño de los párrafos?
+    -aumentar un poco más los margenes y el padding
+
+4. Preguntas para reflexionar:
+○ ¿Por qué los selectores combinados son útiles?
+    -porque al modificar algo, solo afecta a ciertos estilos dependiendo de lo que hayamos elejido
+
+○ ¿Cómo afecta la estructura HTML a los selectores que puedes usar?
+    -la estructura determina qué elementos puedes seleccionar y estilizar
