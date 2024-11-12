@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS MEDIA QUERIES</title>
+
+<style>
+
+        body {
+            font-family:sans-serif;
+            background-color:rgb(200, 128, 208);
+            color: #000;
+            font-size: large;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .texto {
+            max-width: 60%;
+        }
+
+        .texto h1 {
+            font-size: 210%;
+            margin: 0;
+        }
+
+        .texto p {
+            font-size:116%;
+        }
+
+        .cssmq {
+            display: flex;
+            flex-direction: column;
+            gap: 23px;
+        }
+
+        .cssmq button {
+            background-color:rgb(93, 157, 67);
+            color: #000;
+            padding: 30px;
+            border-radius: 60%;
+            text-align: left;
+        }
+
+</style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="texto">
+            <h1>Ejercicio CSS Media Queries</h1>
+            <p>Redimensiona la pantalla para visualizarla en diferentes tamaños. Observa cómo cambia el menú para adaptarse a los diferentes tamaños de pantalla.</p>
+            <p>Pulsa imprimir la página para ver la previsualización, observa como cambia la tipografía y desaparece el menú.</p>
+        </div>
+        <div class="cssmq">
+            <button>W3-Schools</button>
+            <button>Aprende HTML</button>
+            <button>Aprende CSS</button>
+            <button>Referencia Mozilla</button>
+            <button>Trucos CSS</button>
+        </div>
+    </div>
+
+</body>
+</html>
