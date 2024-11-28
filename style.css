@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Open, Helvetica, sans-serif;
+    line-height: 1.7;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); /*para open-sans*/
+
+
+.container {
+    display: flex;
+    background-color: #f2f2f2;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.columna.centro:hover {
+    background-color: #970043; 
+    color: black;
+}
+
+p::first-letter {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    color: #191919;
+}
+
+.header {
+    text-align: center;
+    padding: 7px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #ffd100;
+    color: #000000;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.lados {
+    align-items: center;
+    justify-content: center;
+    background-color: #970043;
+    flex: 1;
+    display: flex;
+}
+
+.logo {
+    max-width: 80%;
+    height: auto;
+}
+
+.center {
+    flex: 3;
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+.center:hover {
+    background-color: #970043; /* Cambia a un color al pasar el raton */
+}
+
+.highlight h2 {
+    flex: 2;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.highlight-image {
+    height: auto;
+    flex: 1;
+    max-width: 100px;
+    margin-left: 10px;
+}
+
+.imagen {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.more-info a {
+    font-weight: bold;
+    color: #ffd100;
+    text-decoration: none;
+}
+
+.footer {
+    background-color:  #970043;
+    color: #ffd100;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+}
