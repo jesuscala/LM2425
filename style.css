@@ -1,107 +1,104 @@
-body {
-    margin: 0;
-    font-family: Open, Helvetica, sans-serif;
-    line-height: 1.7;
-    font-family: "Open Sans", Helvetica, sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-    "wdth" 100;
+header {
+    background-color: rgb(150, 150, 150); 
+    color: white; 
+    display: flex; /* Caja flexible. */
+    justify-content: center; /* Centrado horizontal. */
+    border-radius: 5px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); /*para open-sans*/
-
-
-.container {
-    display: flex;
-    background-color: #f2f2f2;
-    flex-direction: column;
-    height: 100vh;
+aside {
+    background-color: rgb(7, 90, 90); 
+    color: white;
+    width: 250px;
+    float: left; /* Flotante a la izquierda. */
+    height: 800px; 
+    border-radius: 5px; 
+    margin-top: 3px; /* Espacio superior. */
+    font-family: helvetica, arial, sans-serif,
 }
 
-.columna.centro:hover {
-    background-color: #970043; 
-    color: black;
+.elementos {
+    margin: 20px;
+    border-bottom: white solid 1px; /* borde inferior */
 }
 
-p::first-letter {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1.7em;
-    color: #191919;
+section {
+    background-color: rgb(36, 97, 36);
+    color: white;
+    float: right; /* Flotante en la derecha */
+    margin-top: 3px; /* Espacio superior */
+    border-radius: 5px;
+    width: 1170px;
+    height: 800px;
 }
 
-.header {
-    text-align: center;
-    padding: 7px;
-    font-size: 1.5rem;
-    font-weight: bold;
-    background-color: #ffd100;
-    color: #000000;
+h1 {
+    font-family: helvetica, arial, sans-serif;
 }
 
-.main-content {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
+h2 {
+    margin: 30px; /* Margen de 30px. */
+    font-family: helvetica, arial, sans-serif;
+    font-size: 30px;
 }
 
-.lados {
-    align-items: center;
-    justify-content: center;
-    background-color: #970043;
-    flex: 1;
-    display: flex;
-}
-
-.logo {
-    max-width: 80%;
+img {
     height: auto;
-}
-
-.center {
-    flex: 3;
-    padding: 17px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #f2f2f2;
-}
-
-.center:hover {
-    background-color: #970043; /* Cambia a un color al pasar el raton */
-}
-
-.highlight h2 {
-    flex: 2;
-    font-size: 1.2rem;
-    margin: 0;
-}
-
-.highlight-image {
-    height: auto;
-    flex: 1;
-    max-width: 100px;
-    margin-left: 10px;
-}
-
-.imagen {
+    width: 200px; 
+    margin: 30px;
     border-radius: 10px;
-    display: block;
-    margin: 0 auto;
+    border-style: solid; /* Borde sólido */
+    border-color: darkgoldenrod;
 }
 
-.more-info a {
-    font-weight: bold;
-    color: #ffd100;
-    text-decoration: none;
+.parriba {
+    display: flex; /* Para alinear elementos y sea flexible*/
+    width: 800px; 
+    position: absolute; /* Posición absoluta dentro de las casillas */
+    top: 190px; /* Posición de texto de arriba desde arriba */
+    left: 520px; /* Posición de texto de arriba desde la izquierda */
+    font-size: 17px;
+    font-family: helvetica, arial, sans-serif;
 }
 
-.footer {
-    background-color:  #970043;
-    color: #ffd100;
-    text-align: center;
-    padding: 10px;
-    font-size: 0.9rem;
+.pabajo {
+    margin: 30px; /* Margenes de texttos */
+    font-size: 17px; /* Tamaño de la fuente p */
+    font-family: helvetica, arial, sans-serif;
 }
+
+.pabajo::first-letter {
+    font-size: 30px; /* Tamaño de la primera letra */
+    color: gray;
+}
+
+.parriba::first-letter {
+    font-size: 30px; /* Tamaño de la primera letra. */
+    color: gray; /* Color primera letra */
+}
+
+footer {
+    background-color: darkgoldenrod;
+    margin-top: 5px; /* Espacio superior */
+    float: inline-end; /* Flotante */
+    width: 1595px; 
+    height: 50px; 
+    color: white;
+    text-align: center; /* Alineación centrada del texto */
+    border-radius: 5px; /* bordes de esquinaas */
+    font-family: helvetica, arial, sans-serif;
+}
+
+footer:hover {
+    filter: brightness(50%); /* Oscurece pie de pag al pasar el ratón.*/
+}
+
+@media (max-width: 700px) {
+    .body {
+        flex-direction: column;
+    }
+    .aside {
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+  }
